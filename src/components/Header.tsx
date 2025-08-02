@@ -46,10 +46,10 @@ const Header = () => {
       )}
 
       {/* Top Banner */}
-      <div className="bg-gradient-primary text-primary-foreground py-2">
+      <div className="bg-gradient-to-r from-green-600 to-green-700 text-white py-2">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center text-sm font-medium animate-bounce-gentle">
-            <span>🚚 Free Delivery Across Pakistan | 40-Day Return Policy</span>
+            <span>🇵🇰 Free Delivery Across Pakistan | 40-Day Return Policy | Donate Items for Community</span>
           </div>
         </div>
       </div>
@@ -59,12 +59,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">SP</span>
+            <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-lg">PB</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-primary">ShopPakistan</h1>
-              <p className="text-xs text-muted-foreground">Your Trusted Bazaar</p>
+              <h1 className="text-xl font-bold text-primary">Pakistan Bazaar</h1>
+              <p className="text-xs text-muted-foreground">Shop & Donate for Community</p>
             </div>
           </Link>
 

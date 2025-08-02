@@ -1,0 +1,16 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shopping bag icon -->
+  <g transform="translate(5, 8)">
+    <path d="M4 8h12l-1 6H5L4 8z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <path d="M6 8V4a3 3 0 0 1 6 0v4" stroke="#f59e0b" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Text: Pakistan Bazaar -->
+  <text x="30" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">Pakistan</text>
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Bazaar</text>
+  
+  <!-- Pakistani flag colors accent -->
+  <rect x="100" y="15" width="3" height="2" fill="#16a34a"/>
+  <rect x="103" y="15" width="3" height="2" fill="#ffffff"/>
+  <rect x="106" y="15" width="3" height="2" fill="#16a34a"/>
+</svg> 
