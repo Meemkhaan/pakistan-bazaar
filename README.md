@@ -32,7 +32,7 @@ A modern, full-featured e-commerce platform built for Pakistan with integrated d
 
 ## 🚀 Live Demo
 
-**Production URL:** https://shop-pakistan-5jzagrwnx-mukhtiar-khaans-projects.vercel.app
+**Production URL:** https://shop-pakistan.vercel.app/
 
 ## 🛠️ Tech Stack
 
@@ -67,7 +67,8 @@ shop-pakistan-bazaar/
 │   └── lib/               # Utility functions
 ├── public/                # Static assets
 ├── supabase/              # Database migrations
-├── FIX_DONATIONS_TABLE.sql # Database schema
+├── database_schema.sql    # Clean database schema (structure only)
+├── your_data.sql         # Your actual data backup
 └── vercel.json           # Deployment configuration
 ```
 
@@ -131,8 +132,9 @@ shop-pakistan-bazaar/
 
 4. **Set up database**
    ```bash
-   # Run the donations table setup
-   # Execute FIX_DONATIONS_TABLE.sql in Supabase SQL Editor
+   # Run the clean database schema
+   # Execute database_schema.sql in Supabase SQL Editor
+   # To restore your data: Execute your_data.sql
    ```
 
 5. **Start development server**
@@ -186,9 +188,10 @@ npm run lint         # Run ESLint
 
 ### **Database Setup**
 1. Create Supabase project
-2. Run `FIX_DONATIONS_TABLE.sql` in SQL Editor
-3. Configure RLS policies
-4. Set up storage buckets
+2. Run `database_schema.sql` in SQL Editor (clean structure)
+3. Run `your_data.sql` to restore your actual data
+4. Configure RLS policies (included in schema)
+5. Set up storage buckets
 
 ## 📊 Impact
 
